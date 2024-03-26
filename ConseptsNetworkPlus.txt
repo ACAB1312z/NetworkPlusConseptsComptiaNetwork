@@ -1,0 +1,910 @@
+15 section :) ----> 
+
+network intrusion Detection System = nids
+hids -----> host base // // // // 
+ips ----> intrusion prevention System 
+ids just for alert but ips for safe your network....
+
+but in real world in big network use (UTM) unfied threats manegement
+
+
+
+16 section :) ----> 
+
+content filter for wans and packet shaper order and organize your traffic wan 
+
+
+
+
+17 section :) ----> 
+
+
+wireless  access point   wap for wifi and work in data link layer 
+and standards 802 11 n good for use because its appropraite for all standards ....
+
+
+18 section :) ----> 
+DHCP ---> dynamic host configuration protocol.....
+for get dynamic ip address to devices ....
+exclusion =-=-==>>> از این رنج دیگر ip نده
+and reservation by mac address in data link layer man ....
+lease duration ----- > how many times alive your address over client ....
+DORA IS DISCOVER OFFER REQUEST ACCEPT OR ACK ---- > for connect a device to ip and network...
+             router not accros broadcast dhcp but for solve this problem use ip helper
+	     DHCP RELAY AGENT OR ip helper ========>>>>>> router know where dhcp server and convert broadcast request to unicast request to DHCP SERVER....
+
+19 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+20 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+21 section :) ----> 
+
+nslookup for return your url to ip nslookup www.yourUrl.com
+
+
+
+22 section :) ----> 
+
+
+ARP protocol Address Resoulation protocol for match L2 AND L3
+Arp is broad cast send his req and unicast continue and not croos router because arp is broadcasting mechanizm
+Arp just work by IPV4 ......!!!!! 
+for show your arps by this command -----> arp -a -----> and for delete arp cash by this command ---> arp -d
+
+
+
+
+
+
+23 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+24 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+25 section :) ----> 
+
+
+in linux debian base get ip by this command ----> ifconfig <your network card> <your ip> netmask <your netmask>
+for add default gateway in linux by this command ---> route add default gw <your network card> <your ip>
+and for realy change your ip Go to /etc/network/interfaces and change that .......
+						  
+
+
+26 section :) ----> 
+nat ---> network address translation   your address when hit router that ip == router ip (PUBLIC)
+pat ---> port address translation 
+
+
+
+27 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+28 section :) ----> 
+
+route print ----> show your routes and default routes in windows ..... 
+
+
+
+
+
+
+
+
+
+
+29 section :) ----> 
+
+in this senario by this command ----> for create default route in a diff gateway
+by this command ---> route add 192.168.5.2 mask 255.255.255.255 metric 2 -p and your connected!
+
+for delete ---> change add -> delete 
+ 
+
+
+
+
+
+
+30 section :) ----> 
+DYNAMIC ROUTING...
+
+IGP ----> interior Gateway protocol ----> enter your factory
+EGP ----> exterior Gateway protocol ----> outin your factory (internet)
+distance vector , link-state - hybrid - BGP 
+
+
+
+
+
+
+
+
+31 section :) ----> 
+speed ---> UDP
+precision ----> TCP
+
+
+
+
+
+
+
+
+
+
+32 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+33 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+34 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+35 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+36 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+37 section :) ----> 
+spanning tree -----> for prevent broadcasting storm block  one port of root bridge ...
+use BPDU bridge protocol data unit ....
+
+
+
+
+
+
+
+
+
+
+38 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+39 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+40 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+41 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+42 section :) ----> 
+
+wireless network : wierd better than wireless ---> ad-hoc and infrestracture  ----> if in home ---> indoor and aboard outdoor
+
+
+
+
+
+
+
+
+
+43 section :) ----> 
+coaxical cabl 10base2 or 10base5  ---> base one connection broad many connection ....
+twisted pair ---->زوج بهم تابیده
+in home rj11 and in networks rj45 
+and fiber optic 
+
+
+
+
+
+
+
+
+
+44 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+45 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+46 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+47 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+48 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+49 section :) ----> 
+commands for troubleshoot network problems ----> 
+
+ipconfig --> for information network 
+netstat ---> net status ---> netstat -an ---> for show open ports ...
+tracert ---> for show hop count to your request reach to your ip ...
+pathping ---> both tracert and ping command...
+
+
+
+
+
+
+
+
+
+
+50 section :) ----> 
+
+
+cogentco.com ---> for ping from aboard to into by this site ...
+
+
+
+
+
+
+
+
+51 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+52 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+53 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+54 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+55 section :) ----> 
+VITRTUAL PRIVATE NETWORK....
+vpn types : ====> client to Site ... site to site ... client to client or host to host 
+nas 
+ras
+
+vpn protocols -----> pptp , l2tp , sstp , ipSec , open vpn , ikev2
+
+
+-----TUTORIAL CONFIGURATION VPN SERVER PPTP OR OTHER TYPES LATTER----------
+
+
+
+
+
+
+
+56 section :) ----> 
+virtualzation -----> softwere needed is ---> <<hypervisor>>
+
+
+
+
+
+
+
+
+
+
+57 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+58 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+59 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+60 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+61 section :) ----> 
+
+in ipv6 public begin by 3 , 2     
+        private begin by F , D
+	apipa or dhcp in ipv4 by ff
+	link local by FE80
+	Unknown by ::
+	LoopBack by ::1
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+62 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+63 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+64 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+65 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+66 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+67 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+68 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+69 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+70 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+71 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+72 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+73 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+74 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+75 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+76 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+77 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+78 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+79 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+80 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+81 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+82 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+83 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+84 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+85 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+86 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+87 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+88 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+89 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
+90 section :) ----> 
+
+
+
+
+
+
+
+
+
+
+
